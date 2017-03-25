@@ -8,3 +8,4 @@ post_max_size = 8m ;指通过表单POST给PHP的所能接收的最大值，包�
 
 ###php -m | grep mcryp 不显示问题,php -m 调用的是cli里的文件，如果没有，需要手动创建一个软链接
 root@logs:/etc/php5/cli/conf.d# ln -s ../../mods-available/mcrypt.ini 20-mcrypt.ini
+###
