@@ -53,3 +53,9 @@
   319  git commit -m "add hanzi"
   321  git push -u origin master
   323  history | grep git
+##分支
+[root@localhost learngit.git]# git checkout -b dev
+Switched to a new branch 'dev'
+[root@localhost learngit.git]# git branch
+* dev
+  master
