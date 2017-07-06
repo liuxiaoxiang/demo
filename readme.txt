@@ -59,3 +59,17 @@ Switched to a new branch 'dev'
 [root@localhost learngit.git]# git branch
 * dev
   master
+ vi readme.txt 
+ git add readme.txt 
+ git commit -m "branch dev"
+ git branch
+ git checkout master
+ cat readme.txt 
+ 合并分支：
+ git merge dev
+ cat readme.txt 
+ git branch
+ 删除分支
+ git branch -d dev
+ git branch
+ git push -u origin master
