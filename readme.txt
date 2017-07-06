@@ -75,3 +75,5 @@ Switched to a new branch 'dev'
  git push -u origin master
 ###gitlab 
 https://packages.gitlab.com/gitlab
+curl -s https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
+yum install gitlab-ce-9.3.5-ce.0.el6.x86_64
